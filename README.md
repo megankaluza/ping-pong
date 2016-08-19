@@ -7,21 +7,29 @@
 ## Description
 
 ## Ping Pong Specs
-  _The program should return a number when inputted_
-* _Input Example: 5_
-* _Output Example: 5_
+  _The program should return "true" if divisible by 3._
+* _Input Example: 27_
+* _Output Example: True_
 
-_The program should return 'true' _
-* _Input Example: _
-* _Output Example: _
+_The program should return "true" if divisible by 5._
+* _Input Example: 125_
+* _Output Example: True_
 
-_The program should return 'false' _
-* _Input Example: _
-* _Output Example: _
+_The program should return "true" if divisible by 15._
+* _Input Example: 225_
+* _Output Example: True_
 
-_The program should return _
-* _Input Example: _
-* _Output Example: _
+_The program should return Ping if divisible by 3._
+* _Input Example: 27_
+* _Output Example: Ping_
+
+_The program should return Ping if divisible by 3._
+* _Input Example: 125_
+* _Output Example: Pong_
+
+_The program should return Ping-Pong if divisible by 3._
+* _Input Example: 225_
+* _Output Example: Ping-Pong_
 
 ## Setup/Installation Requirements
 
