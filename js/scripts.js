@@ -1,18 +1,27 @@
 //Business Logic//
-var letters = ["Ping", "Pong" , "Ping-pong", "Nope!"];
+var letters = ["Ping", "Pong" , "Ping-pong"];
 
 var pingPong = function(number){
-  for (i=1; i<100; i++) {
-    if (i%3 === 0 && i%5 !== 0) {
-      letters[0];
-    } else if (i%5 === 0 && i%3 !== 0) {
-      letters[1];
-    } else if (i%15 === 0 && !i%3 === 0) {
-      letters[2];
+  var results = [];
+  var inputNumber = 1;
+
+  for (i=1; i<=number; i++) {
+    results.push(inputNumber);
+    inputNumber ++;
+  //  alert(inputNumber);
+    results.forEach(function(number){
+    if (number%15 === 0) {
+      number[i] = letters[0];
+    } else if (number%3 === 0) {
+      number[i] = letters[1];
+    } else if (number%5 === 0) {
+      number[i] = letters[2];
     } else {
-      letters[3];
+      return number;
     };
-  };
+  });
+};
+  return results;
 };
 //User Interface Logic//
 $(document).ready(function(){
@@ -21,9 +30,7 @@ $(document).ready(function(){
     var number = parseInt($("input#number").val());
     var result = pingPong(number);
 
-    $(".ping").text(letters[0])
-    if (i%3 === 0 && i%5 !== 0){
-    };
+    $("#result").append("<li>" + result + "</li>");
     //$("#result").text(result);
 
   });
