@@ -1,24 +1,38 @@
-# _Track Selector_
+# _Ping Pong_
 
-#### _Creating Friday Project for jQuery and JavaScript functions for Epicodus, 8/12/2016_
+#### _Creating Friday Project for Loops and Arrays for Epicodus, 8/19/2016_
 
 #### By _**Megan Kaluza**_
 
 ## Description
 
-_This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQuery, JavaScript, functions, and CSS that initiate a survey to decide which remaining classes to take at Epicodus. My HTML and .js pages include comments to organize and continue building my webpage_
+## Ping Pong Specs
+  _The program should return a number when inputted_
+* _Input Example: 5_
+* _Output Example: 5_
+
+_The program should return 'true' _
+* _Input Example: _
+* _Output Example: _
+
+_The program should return 'false' _
+* _Input Example: _
+* _Output Example: _
+
+_The program should return _
+* _Input Example: _
+* _Output Example: _
 
 ## Setup/Installation Requirements
 
 * _Clone this repository_
     _To clone using Git, use the following terminal command:_
-    _https://github.com/megankaluza/track_suggester.git_
+    __
 * _Open in text editor of your choice_
-*_Link to #_
 
 ## Known Bugs
 
-_Need to fix "if" statements for proper functionality and results of the survey_
+_No known bugs at this time._
 
 ## Support and contact details
 
