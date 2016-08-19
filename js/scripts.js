@@ -21,10 +21,11 @@ $(document).ready(function(){
     var number = parseInt($("input#number").val());
     var result = pingPong(number);
 
-    $("input#number").text(number);
+    $("#result").text(letters[0]);
       if (i%3 === 0 && i%5 !== 0) {
-        alert("HI");
-      };
+      } else if (i%5 === 0 && i%3 !== 0) {
+        $("#result").text(letters[1]);
+      }
 
 
     $("#result").text(result);
