@@ -23,11 +23,11 @@ _The program should return Ping if divisible by 3._
 * _Input Example: 27_
 * _Output Example: Ping_
 
-_The program should return Ping if divisible by 3._
+_The program should return Ping if divisible by 5._
 * _Input Example: 125_
 * _Output Example: Pong_
 
-_The program should return Ping-Pong if divisible by 3._
+_The program should return Ping-Pong if divisible by 15._
 * _Input Example: 225_
 * _Output Example: Ping-Pong_
 
@@ -35,7 +35,7 @@ _The program should return Ping-Pong if divisible by 3._
 
 * _Clone this repository_
     _To clone using Git, use the following terminal command:_
-    __
+    _https://github.com/megankaluza/ping-pong.git_
 * _Open in text editor of your choice_
 
 ## Known Bugs
