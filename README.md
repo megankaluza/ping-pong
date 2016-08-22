@@ -31,6 +31,14 @@ _The program should return Ping-Pong if divisible by 15._
 * _Input Example: 225_
 * _Output Example: Ping-Pong_
 
+_The program should return an array._
+* _Input Example: 5_
+* _Output Example: [1,2,3,4,5]_
+
+_The program should return an array including "Ping, Pong, and Ping-Pong."
+* _Input Example: 5_
+* _Output Example: [1,2,Ping,4,Pong]_
+
 ## Setup/Installation Requirements
 
 * _Clone this repository_
