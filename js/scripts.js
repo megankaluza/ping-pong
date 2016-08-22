@@ -18,9 +18,10 @@ function pingPong (userNumber){
 $(document).ready(function(){
   $("form#ping-pong").submit(function(event){
     event.preventDefault();
+    $("li#list-item").remove();
     var userNumber = parseInt($("input#number").val());
     var input = pingPong(userNumber);
     results = input.join(" ");
-    $("#result").append("<li>" + results + "</li>");
+    $("#result").append("<li id='list-item'>" + results + "</li>");
   });
 });

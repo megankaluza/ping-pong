@@ -4,8 +4,10 @@ body {
 }
 
 h1 {
+  /*background-image: url("../img/ping-pong.png");*/
   text-align: center;
   font-family: 'Londrina Outline', cursive;
+  text-shadow: 20px 50px black;
   font-size: 5em;
 }
 
@@ -17,6 +19,7 @@ h2 {
 
 footer {
   text-align: center;
+  font-family: 'Cabin', sans-serif;
   margin-top: 20%;
 }
 
@@ -27,6 +30,7 @@ label {
 
 li {
   text-align: center;
+  font-family: 'Cabin', sans-serif;
   list-style-type: none;
   margin: 0;
   padding: 0;
