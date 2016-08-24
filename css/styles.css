@@ -1,10 +1,13 @@
 body {
+  background-image: url("../img/ping.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom-right;
   width: 100%;
   background-color: #D6EAF8;
 }
 
 h1 {
-  /*background-image: url("../img/ping-pong.png");*/
   text-align: center;
   font-family: 'Londrina Outline', cursive;
   text-shadow: 20px 50px black;
@@ -15,6 +18,14 @@ h2 {
   text-align: center;
   font-family: 'Londrina Outline', cursive;
   font-size: 4em;
+}
+
+img {
+    position: fixed;
+    width: 30%;
+    left: 65%;
+    top: 0px;
+    z-index: -1;
 }
 
 footer {
