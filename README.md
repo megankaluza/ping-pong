@@ -4,40 +4,23 @@
 
 #### By _**Megan Kaluza**_
 
-## Description
 
-## Ping Pong Specs
-  _The program should return "true" if divisible by 3._
-* _Input Example: 27_
+## Ping Pong Speculations
+  _Create an array._
+* _Input Example: []_
+* _Output Example: [1,2,3,4,5..]_
+
+_Create the array to be divisible._
+* _Input Example: 3, 5, 15_
 * _Output Example: True_
 
-_The program should return "true" if divisible by 5._
-* _Input Example: 125_
-* _Output Example: True_
+_Create a string of words._
+* _Input Example: ""_
+* _Output Example: "Ping, Pong, and Ping-Pong"_
 
-_The program should return "true" if divisible by 15._
-* _Input Example: 225_
-* _Output Example: True_
-
-_The program should return Ping if divisible by 3._
-* _Input Example: 27_
-* _Output Example: Ping_
-
-_The program should return Ping if divisible by 5._
-* _Input Example: 125_
-* _Output Example: Pong_
-
-_The program should return Ping-Pong if divisible by 15._
-* _Input Example: 225_
-* _Output Example: Ping-Pong_
-
-_The program should return an array._
-* _Input Example: 5_
-* _Output Example: [1,2,3,4,5]_
-
-_The program should return an array including "Ping, Pong, and Ping-Pong."
-* _Input Example: 5_
-* _Output Example: [1,2,Ping,4,Pong]_
+_Join the array and string together._
+* _Input Example: .join or .push_
+* _Output Example: [1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong, 11, Ping, 13, 14, Ping-Pong_
 
 ## Setup/Installation Requirements
 
