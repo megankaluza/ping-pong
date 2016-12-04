@@ -4,6 +4,20 @@
 
 #### By _**Megan Kaluza**_
 
+![screenshot](screen_shot.png)
+
+## Description
+
+_Objectives:_
+
+* _JavaScript business logic and user interface logic are separate._
+
+* _Variable names are descriptive and use lower camel case (e.g. myVariableExample)._
+
+* _Code has proper indentation and spacing._
+
+* _Project is in a presentable, portfolio-quality state._
+
 
 ## Ping Pong Speculations
   _Create an array._
