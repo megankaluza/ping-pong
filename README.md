@@ -38,6 +38,8 @@ _Join the array and string together._
 
 ## Setup/Installation Requirements
 
+* Check out the GitHub Pages: https://megankaluza.github.io/ping-pong
+
 * _Clone this repository_
     _To clone using Git, use the following terminal command:_
     _https://github.com/megankaluza/ping-pong.git_
